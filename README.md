@@ -96,7 +96,7 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 ## Visualizations
 
 ### Travel Fatigue Index - Recovery Days per Team
-![TFI Ranking](images/TFI_Recovery_Days_per_Team_.png)
+![TFI Ranking](images/TFI_Recovery_Days_per_Team.png)
 
 ### TFI Components Breakdown (Distance + Jetlag + Recovery Deficit)
 ![TFI Components](images/TFI_Components.png)
@@ -115,6 +115,7 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 
 ### Hypothesis Analysis - TFI vs. WC 2022 Results
 ![Hypothesis](images/Hypothesis_Analysis.png)
+
 ---
 ## Key Findings
 
