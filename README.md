@@ -99,22 +99,22 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 ![TFI Ranking](images/TFI_recovery_days_per_team.png)
 
 ### TFI Components Breakdown (Distance + Jetlag + Recovery Deficit)
-![TFI Components](images/TFI_Components.png)
+![TFI Components](images/TFI_components.png)
 
 ### Jet Lag Burden by Team (ECSS Protocol)
-![Jet Lag](images/Jet_Lag_Burden.png)
+![Jet Lag](images/Jet_lag_burden.png)
 
 ### Matches per Airport - Total Tournament Load
-![Airport Load](images/Matches_per_Airport.png)
+![Airport Load](images/Matches_per_airport.png)
 
 ### Match Distribution by Region
-![Match Distribution](images/Match_Distribution.png)
+![Match Distribution](images/Match_distribution.png)
 
 ### Airport Peak Operational Pressure
-![Peak Phases](images/Airport_Peak_Operational_Pressure.png)
+![Peak Phases](images/Airport_peak_operational_pressure.png)
 
 ### Hypothesis Analysis - TFI vs. WC 2022 Results
-![Hypothesis](images/Hypothesis_Analysis.png)
+![Hypothesis](images/Hypothesis_analysis.png)
 
 ---
 ## Key Findings
