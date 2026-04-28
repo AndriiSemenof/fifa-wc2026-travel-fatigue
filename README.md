@@ -116,6 +116,23 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 ### Hypothesis Analysis - TFI vs. WC 2022 Results
 ![Hypothesis](images/Hypothesis_Analysis.png)
 ---
+## Key Findings
+
+**Hypothesis not supported — but the result is meaningful.**
+
+Statistical testing on FIFA World Cup 2022 data (Qatar) showed no significant 
+relationship between Travel Fatigue Index and team performance:
+- TFI vs. Points: r = 0.087, p = 0.636 (no correlation)
+- TFI vs. Goal difference: r = −0.041, p = 0.823 (no correlation)
+- T-test (qualified vs. eliminated): p = 0.937, mean TFI difference = 0.1 days
+
+**Why this matters for 2026:**
+Qatar 2022 was an ideal *negative control* — all teams traveled to a single compact 
+host country, minimizing travel variance. The absence of fatigue effects there 
+actually strengthens the case for monitoring TFI at WC 2026, where teams will 
+travel across 3 countries and up to 9 time zones. The real test begins now.
+
+---
 
 ## Repository Structure
 
