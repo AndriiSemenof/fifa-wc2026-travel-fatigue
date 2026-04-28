@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes the **travel burden** placed on national football teams competing at the **FIFA World Cup 2026** (USA, Canada, Mexico).
 
@@ -15,7 +15,7 @@ The hypothesis is then **tested against real match data from WM 2022 (Qatar)** u
 
 ---
 
-## 🔬 Hypothesis
+##  Hypothesis
 
 > **"Teams with a higher Travel Fatigue Index (TFI) perform worse in the group stage."**
 
@@ -42,7 +42,7 @@ Tested on FIFA World Cup 2022 data - because all 32 teams traveled to a single h
 
 ---
 
-## 🧪 Scientific Method
+## Scientific Method
 
 Jetlag calculation follows the **ECSS Protocol**:
 
@@ -63,12 +63,12 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 
 **Recovery deficit** = shortfall below the FIFA-standard 3-day minimum rest between matches.
 
-> 📚 Source: Reilly T. et al. (2007). *Travel fatigue and jet-lag in professional sport.*  
+> Source: Reilly T. et al. (2007). *Travel fatigue and jet-lag in professional sport.*  
 > Clinics in Sports Medicine, 26(3), 491-505.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -81,7 +81,7 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 
 ---
 
-## 📁 Data Sources
+## Data Sources
 
 | Dataset | Source |
 |---------|--------|
@@ -93,7 +93,7 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### Travel Fatigue Index - Recovery Days per Team
 ![TFI Ranking](images/TFI_Recovery_Days_per_Team_.png)
@@ -117,7 +117,7 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 ![Hypothesis](images/Hypothesis_Analysis.png)
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 fifa-wc2026-travel-fatigue/
@@ -137,7 +137,7 @@ fifa-wc2026-travel-fatigue/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 1. Clone the repository:
 ```bash
@@ -159,7 +159,7 @@ jupyter notebook fifa-wc2026.ipynb
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 ```
 pandas
