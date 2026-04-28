@@ -88,61 +88,50 @@ TFI (days) = (Distance_km / 1000 × 0.5) + Jetlag_days + Recovery_deficit
 | FIFA World Cup 2026 Match Data | [Kaggle — areezvisram12](https://www.kaggle.com/datasets/areezvisram12/fifa-world-cup-2026-match-data-unofficial) |
 | FIFA World Cup 2022 Complete Dataset | [Kaggle — die9origephit](https://www.kaggle.com/datasets/die9origephit/fifa-world-cup-2022-complete-dataset) |
 
-> ⚠️ CSV files are not included in this repository.  
+> CSV files are not included in this repository.  
 > Please download the datasets directly from Kaggle using the links above.
 
 ---
 
 ## 📈 Visualizations
 
-### TFI Ranking — WM 2026
-![TFI Ranking](images/tfi_ranking.png)
+### Travel Fatigue Index — Recovery Days per Team
+![TFI Ranking](images/TFI_Recovery_Days_per_Team_.png)
 
-### TFI Components Breakdown
-![TFI Components](images/tfi_components.png)
+### TFI Components Breakdown (Distance + Jetlag + Recovery Deficit)
+![TFI Components](images/TFI_Components.png)
 
-### Jetlag Comparison
-![Jetlag](images/jetlag_comparison.png)
+### Jet Lag Burden by Team (ECSS Protocol)
+![Jet Lag](images/Jet_Lag_Burden.png)
 
-### Airport Load — Matches per City
-![Airport Load](images/airport_load.png)
+### Matches per Airport — Total Tournament Load
+![Airport Load](images/Matches_per_Airport.png)
 
-### Regional Distribution (Pie Chart)
-![Regions](images/region_distribution.png)
+### Match Distribution by Region
+![Match Distribution](images/Match_Distribution.png)
 
-### Peak Load Phases
-![Peaks](images/peak_phases.png)
+### Airport Peak Operational Pressure
+![Peak Phases](images/Airport_Peak_Operational_Pressure.png)
 
-### Hypothesis Test — TFI vs. Group Points (WM 2022)
-![Hypothesis Scatter](images/hypothesis_scatter.png)
-
-### Boxplot — Qualified vs. Eliminated
-![Boxplot](images/boxplot_qualified.png)
-
-### Top-10 Teams by TFI — WM 2022
-![Top 10](images/top10_tfi_2022.png)
-
+### Hypothesis Analysis — TFI vs. WC 2022 Results
+![Hypothesis](images/Hypothesis_Analysis.png)
 ---
 
 ## 🗂️ Repository Structure
 
 ```
 fifa-wc2026-travel-fatigue/
-│
-├── analysis.ipynb        ← Main Jupyter Notebook
 ├── README.md
-├── requirements.txt
-│
-└── images/               ← All chart exports
-    ├── tfi_ranking.png
-    ├── tfi_components.png
-    ├── jetlag_comparison.png
-    ├── airport_load.png
-    ├── region_distribution.png
-    ├── peak_phases.png
-    ├── hypothesis_scatter.png
-    ├── boxplot_qualified.png
-    └── top10_tfi_2022.png
+├── fifa-wc-2026.ipynb
+├── LICENSE
+└── images/
+    ├── TFI_Recovery_Days_per_Team_.png
+    ├── TFI_Components.png
+    ├── Jet_Lag_Burden.png
+    ├── Matches_per_Airport.png
+    ├── Match_Distribution.png
+    ├── Airport_Peak_Operational_Pressure.png
+    └── Hypothesis_Analysis.png
 ```
 
 ---
